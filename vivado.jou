@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jun 19 15:07:30 2019
+# Process ID: 28037
+# Current directory: /mnt/external/sspark/Papers/2019_DATE_MANN_FPGA_git/MANN-FPGA
+# Command line: vivado
+# Log file: /mnt/external/sspark/Papers/2019_DATE_MANN_FPGA_git/MANN-FPGA/vivado.log
+# Journal file: /mnt/external/sspark/Papers/2019_DATE_MANN_FPGA_git/MANN-FPGA/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /mnt/external/sspark/Papers/2019_DATE_MANN_FPGA_git/MANN-FPGA/MemN2N.xpr
+update_compile_order -fileset sources_1
+launch_simulation -simset tb_MemN2N
+open_wave_config /mnt/external/sspark/Papers/2019_DATE_MANN_FPGA_git/MANN-FPGA/MemN2N.srcs/tb_MemN2N/imports/MemN2N/tb_MemN2N_behav_reduced_new.wcfg
+source tb_memory_network.tcl
+run all
+close_sim
+close_project
+open_project /home/sspark/Projects/01_memory_network_hw/HW/MemN2N.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project /mnt/external/sspark/Papers/2019_DATE_MANN_FPGA_git/MANN-FPGA/MemN2N.xpr
+update_compile_order -fileset sources_1
+create_run synth_1 -flow {Vivado Synthesis 2016}
+create_run impl_6 -parent_run synth_1 -flow {Vivado Implementation 2016}
+launch_runs impl_6 -jobs 12
+wait_on_run impl_6
+reset_run synth_1
+set_property name impl_1 [get_runs impl_6]
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+current_run [get_runs synth_1]
+delete_runs "synth_perf_opt_dsp_95"
+launch_simulation -simset tb_MemN2N
+open_wave_config /mnt/external/sspark/Papers/2019_DATE_MANN_FPGA_git/MANN-FPGA/MemN2N.srcs/tb_MemN2N/imports/MemN2N/tb_MemN2N_behav_reduced_new.wcfg
+source tb_memory_network.tcl

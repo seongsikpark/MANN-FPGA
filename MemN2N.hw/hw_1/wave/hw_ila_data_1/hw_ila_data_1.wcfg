@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/sspark/Projects/01_memory_network_hw/HW/MemN2N.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="89950fs"></ZoomStartTime>
+      <ZoomEndTime time="285280fs"></ZoomEndTime>
+      <Cursor1Time time="179000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="9" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="array" fp_name="memory_network_top_module/memory_network_i/fc_w_sm/babi_task_idx">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/fc_w_sm/babi_task_idx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">babi_task_idx[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/memory_network_i/fc_w_sm/_infer_th">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/fc_w_sm/_infer_th[31:0]</obj_property>
+      <obj_property name="ObjectShortName">_infer_th[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/memory_network_i/fc_w_sm/data_out_infer_th[0]__0">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/fc_w_sm/data_out_infer_th[0]__0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_infer_th[0]__0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/memory_network_i/fc_w_sm/data_out_infer_th[1]__0">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/fc_w_sm/data_out_infer_th[1]__0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_infer_th[1]__0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/memory_network_i/fc_w_sm/data_out_infer_th[2]__0">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/fc_w_sm/data_out_infer_th[2]__0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_infer_th[2]__0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/memory_network_i/fc_w_sm/data_out_infer_th_addr_tr[0]__0">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/fc_w_sm/data_out_infer_th_addr_tr[0]__0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_infer_th_addr_tr[0]__0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/memory_network_i/fc_w_sm/data_out_infer_th_addr_tr[1]__0">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/fc_w_sm/data_out_infer_th_addr_tr[1]__0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_infer_th_addr_tr[1]__0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/memory_network_i/fc_w_sm/data_out_infer_th_addr_tr[2]__0">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/fc_w_sm/data_out_infer_th_addr_tr[2]__0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_infer_th_addr_tr[2]__0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="memory_network_top_module/memory_network_i/fc_w_sm/_inference_stop">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/fc_w_sm/_inference_stop</obj_property>
+      <obj_property name="ObjectShortName">_inference_stop</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>

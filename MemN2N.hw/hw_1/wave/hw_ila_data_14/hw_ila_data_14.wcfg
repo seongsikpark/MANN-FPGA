@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/00_work/00_project/01_MemN2N/02_HW/MemN2N/MemN2N.hw/hw_1/wave/hw_ila_data_14/hw_ila_data_14.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1024001fs"></ZoomEndTime>
+      <Cursor1Time time="1024000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="246" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/rst_n_addr_mem" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/rst_n_addr_mem</obj_property>
+      <obj_property name="ObjectShortName">rst_n_addr_mem</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/rst_n_addr_dout" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/rst_n_addr_dout</obj_property>
+      <obj_property name="ObjectShortName">rst_n_addr_dout</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/rst_n_weighted_sum" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/rst_n_weighted_sum</obj_property>
+      <obj_property name="ObjectShortName">rst_n_weighted_sum</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/en_mem_w_sync" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/en_mem_w_sync</obj_property>
+      <obj_property name="ObjectShortName">en_mem_w_sync</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_1</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_2" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_2</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_2</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/en_weighted_sum" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/en_weighted_sum</obj_property>
+      <obj_property name="ObjectShortName">en_weighted_sum</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/en_addr_gout_vec" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/en_addr_gout_vec</obj_property>
+      <obj_property name="ObjectShortName">en_addr_gout_vec</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/en_fwd_path_sync" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/en_fwd_path_sync</obj_property>
+      <obj_property name="ObjectShortName">en_fwd_path_sync</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/en_bwd_path_sync" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/en_bwd_path_sync</obj_property>
+      <obj_property name="ObjectShortName">en_bwd_path_sync</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/en_bwd_path_grad_sync" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/en_bwd_path_grad_sync</obj_property>
+      <obj_property name="ObjectShortName">en_bwd_path_grad_sync</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/en_addr_mem" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/en_addr_mem</obj_property>
+      <obj_property name="ObjectShortName">en_addr_mem</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/en_addr_dout" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/en_addr_dout</obj_property>
+      <obj_property name="ObjectShortName">en_addr_dout</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/we_mem_c" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/we_mem_c</obj_property>
+      <obj_property name="ObjectShortName">we_mem_c</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/we_mem_grad" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/we_mem_grad</obj_property>
+      <obj_property name="ObjectShortName">we_mem_grad</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/_we_mem_grad" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/_we_mem_grad</obj_property>
+      <obj_property name="ObjectShortName">_we_mem_grad</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/addr_mem_c_1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/addr_mem_c_1[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_mem_c_1[5:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_3" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_3</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_3</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_4" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_4</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_4</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_5" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_5</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_5</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_6" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_6</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_6</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_7" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_7</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_7</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_8" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_8</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_8</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_9" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_9</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_9</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_10" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_10</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_10</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_11" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_11</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_11</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_12" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_12</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_12</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/count_addr_mem" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/count_addr_mem[6:0]</obj_property>
+      <obj_property name="ObjectShortName">count_addr_mem[6:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_13" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_13</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_13</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_14" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_14</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_14</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_15" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_15</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_15</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_16" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_16</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_16</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_17" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_17</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_17</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_18" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_18</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_18</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_19" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_19</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_19</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_20" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_20</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_20</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_21" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_21</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_21</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/count_addr_dout" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/count_addr_dout[5:0]</obj_property>
+      <obj_property name="ObjectShortName">count_addr_dout[5:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_22" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_22</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_22</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_23" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_23</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_23</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_24" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_24</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_24</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_25" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_25</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_25</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_26" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_26</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_26</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_27" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_27</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_27</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_28" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_28</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_28</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_29" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_29</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_29</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_30" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_30</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_30</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_31" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_31</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_31</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_32" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_32</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_32</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_33" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_33</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_33</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_34" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_34</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_34</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_35" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_35</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_35</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_36" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_36</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_36</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_37" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_37</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_37</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_38" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_38</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_38</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_39" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_39</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_39</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_40" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_40</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_40</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_41" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_41</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_41</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_42" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_42</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_42</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_43" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_43</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_43</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_44" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_44</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_44</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_45" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_45</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_45</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_46" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_46</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_46</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_47" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_47</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_47</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/addr_mem_c" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/addr_mem_c[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_mem_c[5:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_48" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_48</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_48</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_49" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_49</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_49</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_50" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_50</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_50</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_51" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_51</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_51</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_52" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_52</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_52</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_53" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_53</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_53</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_54" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_54</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_54</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_55" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_55</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_55</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_56" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_56</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_56</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_57" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_57</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_57</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/_addr_mem_grad" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/_addr_mem_grad[5:0]</obj_property>
+      <obj_property name="ObjectShortName">_addr_mem_grad[5:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_58" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_58</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_58</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_59" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_59</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_59</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_60" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_60</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_60</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_61" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_61</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_61</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_62" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_62</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_62</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_63" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_63</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_63</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_64" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_64</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_64</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_65" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_65</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_65</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_66" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_66</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_66</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_67" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_67</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_67</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/addr_mem_grad" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/addr_mem_grad[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_mem_grad[5:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_68" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_68</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_68</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_69" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_69</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_69</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_70" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_70</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_70</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_71" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_71</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_71</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_72" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_72</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_72</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_73" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_73</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_73</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_74" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_74</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_74</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_75" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_75</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_75</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_76" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_76</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_76</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_77" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_77</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_77</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_78" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_78</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_78</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_79" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_79</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_79</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_80" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_80</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_80</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_81" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_81</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_81</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_82" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_82</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_82</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_83" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_83</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_83</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_84" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_84</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_84</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_85" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_85</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_85</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_86" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_86</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_86</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_87" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_87</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_87</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_88" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_88</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_88</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_89" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_89</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_89</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_90" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_90</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_90</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_91" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_91</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_91</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_92" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_92</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_92</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_93" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_93</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_93</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_94" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_94</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_94</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_95" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_95</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_95</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_96" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_96</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_96</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_97" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_97</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_97</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_98" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_98</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_98</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_99" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_99</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_99</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_100" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_100</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_100</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_101" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_101</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_101</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_102" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_102</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_102</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_103" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_103</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_103</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_104" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_104</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_104</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_105" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_105</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_105</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_106" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_106</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_106</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_107" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_107</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_107</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_108" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_108</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_108</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_109" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_109</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_109</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_110" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_110</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_110</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_111" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_111</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_111</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_112" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_112</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_112</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_113" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_113</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_113</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_114" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_114</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_114</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_115" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_115</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_115</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_116" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_116</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_116</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_117" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_117</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_117</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_118" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_118</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_118</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_119" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_119</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_119</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_120" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_120</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_120</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_121" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_121</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_121</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_122" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_122</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_122</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_123" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_123</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_123</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_124" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_124</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_124</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_125" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_125</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_125</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/weight" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/weight[31:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[31:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/overflow_mult_out_mat" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/overflow_mult_out_mat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">overflow_mult_out_mat[31:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/overflow_mult_out_vec" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/overflow_mult_out_vec[31:0]</obj_property>
+      <obj_property name="ObjectShortName">overflow_mult_out_vec[31:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/underflow_mult_out_mat" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/underflow_mult_out_mat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">underflow_mult_out_mat[31:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/underflow_mult_out_vec" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/underflow_mult_out_vec[31:0]</obj_property>
+      <obj_property name="ObjectShortName">underflow_mult_out_vec[31:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_126" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_126</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_126</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_127" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_127</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_127</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_128" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_128</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_128</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_129" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_129</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_129</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_130" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_130</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_130</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_131" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_131</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_131</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_132" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_132</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_132</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_133" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_133</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_133</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_134" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_134</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_134</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_135" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_135</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_135</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_136" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_136</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_136</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_137" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_137</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_137</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_138" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_138</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_138</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_139" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_139</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_139</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_140" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_140</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_140</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_141" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_141</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_141</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_142" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_142</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_142</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_143" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_143</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_143</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_144" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_144</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_144</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_145" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_145</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_145</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_146" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_146</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_146</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_147" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_147</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_147</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_148" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_148</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_148</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_149" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_149</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_149</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_150" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_150</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_150</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_151" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_151</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_151</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_152" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_152</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_152</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_153" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_153</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_153</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_154" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_154</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_154</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_155" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_155</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_155</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_156" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_156</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_156</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_157" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_157</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_157</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_158" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_158</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_158</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_159" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_159</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_159</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_160" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_160</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_160</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_161" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_161</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_161</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_162" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_162</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_162</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_163" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_163</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_163</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_164" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_164</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_164</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_165" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_165</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_165</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_166" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_166</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_166</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_167" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_167</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_167</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_168" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_168</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_168</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_169" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_169</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_169</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_170" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_170</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_170</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_171" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_171</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_171</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_172" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_172</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_172</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_173" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_173</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_173</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_174" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_174</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_174</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_175" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_175</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_175</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_176" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_176</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_176</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_177" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_177</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_177</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_178" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_178</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_178</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_179" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_179</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_179</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_180" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_180</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_180</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_181" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_181</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_181</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_182" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_182</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_182</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_183" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_183</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_183</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_184" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_184</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_184</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_185" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_185</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_185</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_186" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_186</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_186</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_187" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_187</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_187</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_188" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_188</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_188</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_189" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_189</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_189</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/done_addr_mem" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/done_addr_mem</obj_property>
+      <obj_property name="ObjectShortName">done_addr_mem</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/done_addr_dout" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/done_addr_dout</obj_property>
+      <obj_property name="ObjectShortName">done_addr_dout</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/_done_fwd_path" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/_done_fwd_path</obj_property>
+      <obj_property name="ObjectShortName">_done_fwd_path</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/__done_fwd_path" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/__done_fwd_path</obj_property>
+      <obj_property name="ObjectShortName">__done_fwd_path</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/___done_fwd_path" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/___done_fwd_path</obj_property>
+      <obj_property name="ObjectShortName">___done_fwd_path</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/_done_bwd_path" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/_done_bwd_path</obj_property>
+      <obj_property name="ObjectShortName">_done_bwd_path</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/tree_adder_valid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/tree_adder_valid</obj_property>
+      <obj_property name="ObjectShortName">tree_adder_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_190" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_190</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_190</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/overflow_tree_adder_5th" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/overflow_tree_adder_5th</obj_property>
+      <obj_property name="ObjectShortName">overflow_tree_adder_5th</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/underflow_tree_adder_5th" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/underflow_tree_adder_5th</obj_property>
+      <obj_property name="ObjectShortName">underflow_tree_adder_5th</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_191" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_191</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_191</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_192" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_192</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_192</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_193" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_193</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_193</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_194" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_194</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_194</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_195" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_195</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_195</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_196" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_196</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_196</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_197" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_197</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_197</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_198" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_198</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_198</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_199" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_199</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_199</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_200" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_200</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_200</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_201" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_201</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_201</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_202" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_202</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_202</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_203" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_203</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_203</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_204" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_204</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_204</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_205" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_205</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_205</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_206" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_206</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_206</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_207" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_207</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_207</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_208" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_208</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_208</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_209" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_209</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_209</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_210" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_210</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_210</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_211" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;_211</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_211</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/memory_network_i/weighted_mem/&lt;const0&gt;</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>

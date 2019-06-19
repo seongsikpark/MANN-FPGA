@@ -1,0 +1,16 @@
+vhdl xpm "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd" 
+vhdl xbip_utils_v3_0_6 "../../../ipstatic/xbip_utils_v3_0_6/hdl/xbip_utils_v3_0_vh_rfs.vhd" 
+vhdl c_reg_fd_v12_0_2 "../../../ipstatic/c_reg_fd_v12_0_2/hdl/c_reg_fd_v12_0_vh_rfs.vhd" 
+vhdl c_reg_fd_v12_0_2 "../../../ipstatic/c_reg_fd_v12_0_2/hdl/c_reg_fd_v12_0.vhd" 
+vhdl xbip_dsp48_wrapper_v3_0_4 "../../../ipstatic/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd" 
+vhdl xbip_pipe_v3_0_2 "../../../ipstatic/xbip_pipe_v3_0_2/hdl/xbip_pipe_v3_0_vh_rfs.vhd" 
+vhdl xbip_pipe_v3_0_2 "../../../ipstatic/xbip_pipe_v3_0_2/hdl/xbip_pipe_v3_0.vhd" 
+vhdl xbip_dsp48_addsub_v3_0_2 "../../../ipstatic/xbip_dsp48_addsub_v3_0_2/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd" 
+vhdl xbip_dsp48_addsub_v3_0_2 "../../../ipstatic/xbip_dsp48_addsub_v3_0_2/hdl/xbip_dsp48_addsub_v3_0.vhd" 
+vhdl xbip_addsub_v3_0_2 "../../../ipstatic/xbip_addsub_v3_0_2/hdl/xbip_addsub_v3_0_vh_rfs.vhd" 
+vhdl xbip_addsub_v3_0_2 "../../../ipstatic/xbip_addsub_v3_0_2/hdl/xbip_addsub_v3_0.vhd" 
+vhdl c_addsub_v12_0_9 "../../../ipstatic/c_addsub_v12_0_9/hdl/c_addsub_v12_0_vh_rfs.vhd" 
+vhdl c_addsub_v12_0_9 "../../../ipstatic/c_addsub_v12_0_9/hdl/c_addsub_v12_0.vhd" 
+vhdl xil_defaultlib "../../../ip/adder_32/sim/adder_32.vhd" 
+
+nosort

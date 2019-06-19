@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/sspark/Projects/01_memory_network_hw/HW/MemN2N.hw/hw_1/wave/hw_ila_data_6/hw_ila_data_6.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="659427fs"></ZoomStartTime>
+      <ZoomEndTime time="1037964fs"></ZoomEndTime>
+      <Cursor1Time time="862000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="17" />
+   <wvobject type="array" fp_name="memory_network_top_module/w_init_controller_i/_data_out[0]">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/_data_out[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">_data_out[0][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/w_init_controller_i/_data_out[1]">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/_data_out[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">_data_out[1][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/w_init_controller_i/_data_out[31]">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/_data_out[31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">_data_out[31][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/w_init_controller_i/addr_out">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/addr_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/w_init_controller_i/count_count_emb_vec">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/count_count_emb_vec[4:0]</obj_property>
+      <obj_property name="ObjectShortName">count_count_emb_vec[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/w_init_controller_i/count_count_emb_vec_1">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/count_count_emb_vec_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">count_count_emb_vec_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="memory_network_top_module/w_init_controller_i/data_fifo_in">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/data_fifo_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_fifo_in[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="memory_network_top_module/w_init_controller_i/done">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="memory_network_top_module/w_init_controller_i/done_addr_out">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/done_addr_out</obj_property>
+      <obj_property name="ObjectShortName">done_addr_out</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="memory_network_top_module/w_init_controller_i/done_count_emb_vec">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/done_count_emb_vec</obj_property>
+      <obj_property name="ObjectShortName">done_count_emb_vec</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="memory_network_top_module/w_init_controller_i/en_count_emb_vec">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/en_count_emb_vec</obj_property>
+      <obj_property name="ObjectShortName">en_count_emb_vec</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="memory_network_top_module/w_init_controller_i/en_w_load_to_fpga">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/en_w_load_to_fpga</obj_property>
+      <obj_property name="ObjectShortName">en_w_load_to_fpga</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="memory_network_top_module/w_init_controller_i/en_w_load_to_fpga_sync">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/en_w_load_to_fpga_sync</obj_property>
+      <obj_property name="ObjectShortName">en_w_load_to_fpga_sync</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="memory_network_top_module/w_init_controller_i/rst_n_count_emb_vec">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/rst_n_count_emb_vec</obj_property>
+      <obj_property name="ObjectShortName">rst_n_count_emb_vec</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="memory_network_top_module/w_init_controller_i/valid_fifo_in">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/valid_fifo_in</obj_property>
+      <obj_property name="ObjectShortName">valid_fifo_in</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="memory_network_top_module/w_init_controller_i/we">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="memory_network_top_module/w_init_controller_i/we_addr_out">
+      <obj_property name="ElementShortName">memory_network_top_module/w_init_controller_i/we_addr_out</obj_property>
+      <obj_property name="ObjectShortName">we_addr_out</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>
