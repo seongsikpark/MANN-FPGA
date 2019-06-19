@@ -22,6 +22,8 @@ The host (computer) and FPGA board are connected through PCI-E.
 
 We used FPGA IP core and device driver for the PCI-E by Xillybus (http://xillybus.com/)
 
+<img width="512" alt="measurement" src="https://user-images.githubusercontent.com/13957658/59736966-c33fd180-9296-11e9-95b4-288d35160f24.png">
+
 
 # Implementation detail
 Language: Verilog
@@ -30,11 +32,24 @@ FPGA: Xilinx Ultrascale
 
 Board: Xilinx VCU108 (https://www.xilinx.com/products/boards-and-kits/ek-u1-vcu108-g.html)
 
+HOST-FPGA interface: PCI-E (Xillybus, http://xillybus.com/)
+
 System clk freq.: 100Mhz
 
 Model: memory networks (https://arxiv.org/abs/1410.3916)
 
 Testbench: bAbI dataset (https://research.fb.com/downloads/babi/)
+
+# Block diagram
+![hw_archi](https://user-images.githubusercontent.com/13957658/59738422-27b15f80-929c-11e9-97ac-52488adb8dd0.png)
+
+
+# Utilization (post implementation)
+<img width="258" alt="util_post_imp_1" src="https://user-images.githubusercontent.com/13957658/59737263-de5f1100-9297-11e9-8772-eeac229f0661.PNG">
+
+
+# Power consumption
+<img width="248" alt="power" src="https://user-images.githubusercontent.com/13957658/59737258-d7d09980-9297-11e9-84f0-774709d7d3f3.PNG">
 
 
 # Citation
