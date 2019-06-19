@@ -57,6 +57,8 @@ Testbench: bAbI dataset (https://research.fb.com/downloads/babi/)
 # Power consumption
 <img width="248" alt="power" src="https://user-images.githubusercontent.com/13957658/59737258-d7d09980-9297-11e9-84f0-774709d7d3f3.PNG">
 
+# Waveform example
+<img width="826" alt="waveform" src="https://user-images.githubusercontent.com/13957658/59741249-6bf52d80-92a5-11e9-9e01-cf178c9543f2.PNG">
 
 # Experimental Results on the bAbI dataset
 <img width="512" alt="results" src="https://user-images.githubusercontent.com/13957658/59738860-b4105200-929d-11e9-9f58-93a6bb2cf78a.PNG">
