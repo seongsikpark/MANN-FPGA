@@ -74,10 +74,6 @@ assign _const_b = `CONST_EXP_B;
 generate
     for(i=0;i<NUM_EXP_PWLA;i=i+1)
     begin : shift_const
-        /*
-        assign const_a[(i+1)*BW_WL-1-:BW_WL] = _const_a[(i+1)*BW_WL-1-:BW_WL]<<(BW_WL-BW_IWL-1);
-        assign const_b[(i+1)*BW_WL-1-:BW_WL] = _const_b[(i+1)*BW_WL-1-:BW_WL]<<(BW_WL-BW_IWL-1);
-        */
         assign const_a[(i+1)*BW_WL-1-:BW_WL] = _const_a[(i+1)*BW_WL-1-:BW_WL];
         assign const_b[(i+1)*BW_WL-1-:BW_WL] = _const_b[(i+1)*BW_WL-1-:BW_WL];
     end
@@ -98,8 +94,6 @@ generate
         (
             .a(din),
             .b(const_a[(i+1)*BW_WL-1-:BW_WL]),
-            //.c(mult[(i+1)*BW_WL-1-:BW_WL]),
-            //.c(_mult[(i+1)*BW_WL-1-:BW_WL]),
             .c(_mult[i]),
             .overflow(),
             .underflow()
@@ -131,11 +125,8 @@ generate
         )
         fixed_adder_to_pwla
         (
-            //.a(mult[(i+1)*BW_WL-1-:BW_WL]),
             .a(mult[i]),
             .b(const_b[(i+1)*BW_WL-1-:BW_WL]),
-            //.c(pwla[(i+1)*BW_WL-1-:BW_WL]),
-            //.c(_pwla[(i+1)*BW_WL-1-:BW_WL]),
             .c(_pwla[i]),
             .overflow(),
             .underflow()
@@ -197,56 +188,6 @@ generate
 endgenerate
 
 
-
-`ifdef EXP_PWLA_VER_1
-wire [BW_WL-1:0] max_1;
-wire [BW_WL-1:0] max_2;
-wire [BW_WL-1:0] max_3;
-wire [BW_WL-1:0] max;
-
-assign max_1 = ($signed(pwla_debug[0]) > $signed(pwla_debug[1]))? pwla_debug[0]:pwla_debug[1];
-assign max_2 = ($signed(pwla_debug[2]) > $signed(pwla_debug[3]))? pwla_debug[2]:pwla_debug[3];
-assign max_3 = ($signed(max_1) > $signed(max_2))? max_1:max_2;
-assign max = ($signed(pwla_debug[4]) > $signed(max_3))? pwla_debug[4]:max_3;
-`endif
-
-
-
-`ifdef EXP_PWLA_VER_2
-`ifdef NUM_EXP_PWLA_4
-wire [BW_WL-1:0] max_1;
-wire [BW_WL-1:0] max_2;
-wire [BW_WL-1:0] max;
-
-assign max_1 = ($signed(pwla_debug[0]) > $signed(pwla_debug[1]))? pwla_debug[0]:pwla_debug[1];
-assign max_2 = ($signed(pwla_debug[2]) > $signed(pwla_debug[3]))? pwla_debug[2]:pwla_debug[3];
-
-assign max = ($signed(max_1) > $signed(max_2))? max_1:max_2;
-`endif
-
-`ifdef NUM_EXP_PWLA_8
-wire [BW_WL-1:0] max_1;
-wire [BW_WL-1:0] max_2;
-wire [BW_WL-1:0] max_3;
-wire [BW_WL-1:0] max_4;
-
-wire [BW_WL-1:0] max_5;
-wire [BW_WL-1:0] max_6;
-
-wire [BW_WL-1:0] max;
-
-assign max_1 = ($signed(pwla_debug[0]) > $signed(pwla_debug[1]))? pwla_debug[0]:pwla_debug[1];
-assign max_2 = ($signed(pwla_debug[2]) > $signed(pwla_debug[3]))? pwla_debug[2]:pwla_debug[3];
-assign max_3 = ($signed(pwla_debug[4]) > $signed(pwla_debug[5]))? pwla_debug[4]:pwla_debug[5];
-assign max_4 = ($signed(pwla_debug[6]) > $signed(pwla_debug[7]))? pwla_debug[6]:pwla_debug[7];
-
-assign max_5 = ($signed(max_1) > $signed(max_2))? max_1:max_2;
-assign max_6 = ($signed(max_3) > $signed(max_4))? max_3:max_4;
-
-assign max = ($signed(max_5) > $signed(max_6))? max_5:max_6;
-`endif
-
-`ifdef NUM_EXP_PWLA_16
 wire [BW_WL-1:0] max;
 
 wire [BW_WL-1:0] max_1;
@@ -285,9 +226,6 @@ assign max_1 = ($signed(max_3) > $signed(max_4))? max_3:max_4;
 assign max_2 = ($signed(max_5) > $signed(max_6))? max_5:max_6;
 
 assign max = ($signed(max_1) > $signed(max_2))? max_1:max_2;
-`endif
-
-`endif
 
 assign dout = max;
 

@@ -321,9 +321,6 @@ wire underflow_tree_adder_5th;
 wire [DIM_EMB-1:0] underflow_mult;
 wire [DIM_EMB-1:0] underflow_mult_2;
 
-// faster infer mode
-`ifdef FASTER_INFER_MODE
-
 wire [BW_COUNTER_IN-1:0] addr_infer_th;
 wire [BW_DATA-1:0] data_out_infer_th [0:NUM_TASK-1];
 wire [BW_DATA-1:0] _infer_th;
@@ -331,17 +328,6 @@ wire [BW_DATA-1:0] _infer_th;
 reg [7:0] babi_task_idx;
 
 wire _inference_stop;
-
-`ifdef FASTER_INFER_ADDR_TR_MODE
-wire [BW_COUNTER_IN-1:0] addr_infer_th_addr_tr;
-wire [BW_DATA-1:0] data_out_infer_th_addr_tr [0:NUM_TASK-1];
-
-
-`endif
-
-`endif
-
-
 
 
 //
@@ -376,18 +362,6 @@ begin
     else
         dout_exp_shift <= din_exp_shift_bit[7:4];
 end
-
-// for faster inference
-`ifdef FASTER_INFER_MODE
-// babi task number
-always@(posedge clk or negedge rst_n)
-begin
-    if(rst_n==1'b0)
-        babi_task_idx <= 'b0;
-    else
-        babi_task_idx <= din_exp_shift_bit;
-end
-`endif
 
 // combinational logic
 assign en_addr_w_fwd_path = en_dot_product&&en_addr_w_dot_product || en_exp;
@@ -580,11 +554,7 @@ end
 //assign din_exp = (en_exp==1'b1) ? $signed(_add_out_exp_sub_max) <<< (4) : {BW_DATA{1'b0}};
 assign din_exp = (en_exp==1'b1) ? _shifted_add_out_exp_sub_max : {BW_DATA{1'b0}};
 
-`ifdef WO_SOFTMAX_MODE
-assign _done_fwd_path = en_fwd_path_sync && done_dot_product;
-`else
 assign _done_fwd_path = en_fwd_path_sync && done_norm_div;
-`endif
 
 always@(posedge clk or negedge rst_n)
 begin
@@ -613,25 +583,7 @@ generate
     end
 endgenerate
 
-// faster infer
-`ifdef FASTER_INFER_MODE
-assign addr_infer_th = addr_dot_product;
-`endif
-
-
 // sequential logic
-/*
-always@(posedge clk or negedge rst_n)
-begin
-    if(rst_n==1'b0)
-        en_init_w_sync <= 1'b0;
-    else 
-        if(_done_init_w==1'b1)
-            en_init_w_sync <= 1'b0;
-        else if(en_init_w_sync==1'b0)
-            en_init_w_sync <= en_init_w;
-end
-*/
 always@(posedge clk or negedge rst_n)
 begin
     if(rst_n==1'b0)
@@ -674,14 +626,6 @@ begin
             en_dot_product<=en_fwd_path_sync;
 end
 
-
-
-`ifdef WO_SOFTMAX_MODE
-always@(posedge clk)
-begin
-    en_exp <= 1'b0;
-end
-`else
 always@(posedge clk or negedge rst_n)
 begin
     if(rst_n==1'b0)
@@ -692,7 +636,6 @@ begin
         else if(en_fwd_path_sync==1'b1 && en_exp==1'b0)
             en_exp <= en_dot_product && done_dot_product;
 end
-`endif
 
 generate
     for(i=0;i<DIM_IN;i=i+1)
@@ -820,16 +763,6 @@ begin
             reg_sum_exp <= _reg_sum_exp;
 end
 
-`ifdef WO_SOFTMAX_MODE
-always@(posedge clk or negedge rst_n or negedge rst_n_soft)
-begin
-    if(rst_n==1'b0 || rst_n_soft==1'b0)
-        data_out <= 'b0;
-    else
-        if(en_dot_product==1'b1 && tree_adder_valid==1'b1)
-            data_out[(addr_dot_product+1)*BW_DATA-1-:BW_DATA] <= _data_out;
-end
-`else
 always@(posedge clk or negedge rst_n or negedge rst_n_soft)
 begin
     if(rst_n==1'b0 || rst_n_soft==1'b0)
@@ -839,9 +772,6 @@ begin
         if(we_dout==1'b1)
             data_out[(addr_dout_sm+1)*BW_DATA-1-:BW_DATA] <= _data_out;
 end
-`endif
-
-
 
 always@(posedge clk or negedge rst_n or negedge rst_n_soft)
 begin
@@ -887,17 +817,7 @@ begin
 end
 
 
-
-
-`ifdef FASTER_INFER_MODE
-    assign _infer_th = $signed(data_out_infer_th[babi_task_idx])>>>(5);
-    //assign _infer_th = $signed(data_out_infer_th[babi_task_idx])>>>(1);
-    assign _inference_stop = ($signed(_reg_dot_product)>$signed(_infer_th))? 1'b1:1'b0;
-    //assign _done_exp = (en_dot_product==1'b1) && ($signed(_reg_dot_product) > $signed(data_out_infer_th[babi_task_idx])) && (tree_adder_valid==1'b1);
-    assign _done_dot_product = (en_dot_product==1'b1&&done_dot_product==1'b0&&( (COUNT_VALUE_IN==addr_dot_product)||_inference_stop)&&tree_adder_valid==1'b1);
-`else
-    assign _done_dot_product = (en_dot_product==1'b1&&done_dot_product==1'b0&&(COUNT_VALUE_IN==addr_dot_product)&&tree_adder_valid==1'b1);
-`endif
+assign _done_dot_product = (en_dot_product==1'b1&&done_dot_product==1'b0&&(COUNT_VALUE_IN==addr_dot_product)&&tree_adder_valid==1'b1);
 
 assign _done_exp = (en_exp==1'b1&&done_exp==1'b0&&(COUNT_VALUE_IN-1==addr_exp_latch));
 
@@ -1027,24 +947,7 @@ generate
     end
 endgenerate
 
-/*
-reg [BW_COUNTER_IN-1:0] addr_w_up;
 
-always@(posedge clk or negedge rst_n)
-begin
-    if(rst_n==1'b0)
-        addr_w_up <= {BW_COUNTER_IN{1'b0}};
-    else
-        if(en_w_up_latch==1'b1)
-            addr_w_up <= addr_w;
-end
-*/
-
-
-`ifdef FASTER_INFER_ADDR_TR_MODE
-assign addr_infer_th_addr_tr = count_addr_w;
-assign addr_w_fwd_path = data_out_infer_th_addr_tr[babi_task_idx];
-/*
 always@(posedge clk or negedge rst_n)
 begin
     if(rst_n==1'b0)
@@ -1054,42 +957,7 @@ begin
 end
 
 assign addr_w_fwd_path = addr_w_fwd_path_pre;
-*/
-`else
-always@(posedge clk or negedge rst_n)
-begin
-    if(rst_n==1'b0)
-        addr_w_fwd_path_pre <= 'b0;
-    else
-        addr_w_fwd_path_pre <= count_addr_w;
-end
-
-assign addr_w_fwd_path = addr_w_fwd_path_pre;
-`endif
-
-
-//assign addr_w = (en_fwd_path_sync==1'b1)? count_addr_w : count_addr_w;
-//assign addr_w = (en_fwd_path_sync==1'b1)? count_addr_w : ((en_init_w_sync==1'b1)? addr_in_init_w:count_addr_w);
 assign addr_w = (en_fwd_path_sync==1'b1)? addr_w_fwd_path : ((en_init_w_sync==1'b1)? addr_in_init_w:count_addr_w);
-/*
-always@(posedge clk or negedge rst_n)
-begin
-    if(rst_n==1'b0)
-        addr_w <= 'b0;
-    else
-    begin
-        if(en_init_w_sync==1'b1)
-        begin
-            addr_w <= addr_in_init_w;
-        end
-        else
-        begin
-            addr_w <= count_addr_w;
-        end
-    end
-end
-*/
-
 
 
 always@(posedge clk or negedge rst_n)
@@ -1173,62 +1041,6 @@ generate
     end
 endgenerate
 
-
-// faster infer - inference threshold
-`ifdef FASTER_INFER_MODE
-generate
-    for(i=0;i<NUM_TASK;i=i+1)
-    begin : infer_th
-        ram_sync
-        #(
-            .BW_DATA(BW_DATA),
-            .BW_ADDR(BW_ADDR),
-            .INIT_FILE(`FILE_NAME_FASTER_INFER_TH(i))
-        )
-        infer_th
-        (
-            // clk
-            .clk(clk),
-            // reset_n
-            .rst_n(rst_n),
-            // input
-            .addr(addr_infer_th),
-            .oe(1'b1),
-            .we(1'b0),
-            .data_in(32'b0),
-            // inout
-            .data_out(data_out_infer_th[i])
-        );
-    end
-endgenerate
-`endif
-
-`ifdef FASTER_INFER_ADDR_TR_MODE
-    for(i=0;i<NUM_TASK;i=i+1)
-    begin : infer_th_addr_tr
-        ram_sync
-        #(
-            .BW_DATA(BW_DATA),
-            .BW_ADDR(BW_ADDR),
-            .INIT_FILE(`FILE_NAME_FASTER_INFER_TH_ADDR_TR(i))
-        )
-        infer_th_addr_tr
-        (
-            // clk
-            .clk(clk),
-            // reset_n
-            .rst_n(rst_n),
-            // input
-            .addr(addr_infer_th_addr_tr),
-            .oe(1'b1),
-            .we(1'b0),
-            .data_in(32'b0),
-            // inout
-            .data_out(data_out_infer_th_addr_tr[i])
-        );
-    end
-`endif
-
 //
 counter
 #(
@@ -1251,10 +1063,7 @@ addr_weight
 );
 
 
-
-
 generate
-    //for(i=0;i<DIM_IN;i=i+1)
     for(i=0;i<DIM_EMB;i=i+1)
     begin : assign_din_mult
         always@(*)
@@ -1341,7 +1150,6 @@ generate
         (
             .a(din_a_mult_2[i]),
             .b(din_b_mult_2[i]),
-            //.c(dout_mult_2[i]),
             .c(_dout_mult_2[i]),
             .overflow(overflow_mult_2[i]),
             .underflow(underflow_mult_2[i])
@@ -1483,8 +1291,6 @@ generate
         )
         tree_adder_2nd_stage
         (
-            //.a(tree_adder_1st[i]),
-            //.b(tree_adder_1st[i+1]),
             .a($signed(tree_adder_1st[i])>>>(1)),
             .b($signed(tree_adder_1st[i+1])>>>(1)),
             .c(_tree_adder_2nd[i/2]),
@@ -1512,8 +1318,6 @@ generate
         )
         tree_adder_3rd_stage
         (
-            //.a(tree_adder_2nd[i]),
-            //.b(tree_adder_2nd[i+1]),
             .a($signed(tree_adder_2nd[i])>>>(1)),
             .b($signed(tree_adder_2nd[i+1])>>>(1)),
             .c(_tree_adder_3rd[i/2]),
@@ -1540,8 +1344,6 @@ generate
         )
         tree_adder_4th_stage
         (
-            //.a(tree_adder_3rd[i]),
-            //.b(tree_adder_3rd[i+1]),
             .a($signed(tree_adder_3rd[i])>>>(1)),
             .b($signed(tree_adder_3rd[i+1])>>>(1)),
             .c(_tree_adder_4th[i/2]),
@@ -1569,8 +1371,6 @@ generate
         )
         tree_adder_5th_stage
         (
-            //.a(tree_adder_4th[i]),
-            //.b(tree_adder_4th[i+1]),
             .a($signed(tree_adder_4th[i])>>>(1)),
             .b($signed(tree_adder_4th[i+1])>>>(1)),
             .c(_tree_adder_5th),
@@ -1728,9 +1528,6 @@ generate
                 end
                 3'b001 :
                 begin
-                    //_add_in_b[i] = $signed(~data_out_w_del[i]+1'b1) >>> (LEARNING_RATE_SHIFT_BITS+BW_BATCH_SIZE);
-                    //_add_in_b[i] = $signed(~data_out_w_del[i]+1'b1) >>> (lr+BW_BATCH_SIZE);
-                    //_add_in_b[i] = $signed(~shifted_lr_data_out_w_del[i]+1'b1);
                     _add_in_b[i] = $signed(~data_out_w_del[i]+1'b1);
                 end
                 default
@@ -1744,15 +1541,11 @@ endgenerate
 
 always@(*)
 begin
-    //_add_in_a_exp_sub_max = (en_fwd_path_sync==1&&en_exp==1) ? $signed($signed(reg_dot_product[addr_exp]) >>> (BW_IWL_EXP-BW_IWL)) : {BW_DATA{1'b0}};
-   
-    //_add_in_a_exp_sub_max = (en_fwd_path_sync==1&&en_exp==1) ? $signed($signed(reg_dot_product[addr_exp_load]) >>> (BW_IWL_EXP-BW_IWL)) : {BW_DATA{1'b0}};
     _add_in_a_exp_sub_max = (en_fwd_path_sync==1&&en_exp==1) ? reg_dot_product[addr_exp_load] : {BW_DATA{1'b0}};                    // shift value early stage - at input of tree adder;
 end
 
 always@(*)
 begin
-    //_add_in_b_exp_sub_max = (en_fwd_path_sync==1&&en_exp==1) ? $signed($signed(~reg_dot_product_max+1'b1) >>> (BW_IWL_EXP-BW_IWL)) : {BW_DATA{1'b0}};
     _add_in_b_exp_sub_max = (en_fwd_path_sync==1&&en_exp==1) ? $signed(~reg_dot_product_max+1'b1) : {BW_DATA{1'b0}};                 // shift value early stage - at input of tree adder;
 end
 
@@ -1808,61 +1601,6 @@ begin
 end
 
 
-
-
-// test_170810
-/*
-generate
-    for(i=0;i<DIM_EMB;i=i+1)
-    begin
-        always@(*)
-        begin
-            case({en_bwd_path_sync,en_bwd_path_w_up_sync})
-                2'b10 :
-                begin
-                    if(f_1st_in_batch == 1'b1) 
-                        _add_in_reg_l2_a[i] = {BW_DATA{1'b0}};
-                    else
-                        _add_in_reg_l2_a[i] = data_out_w_del[i];
-                end
-                2'b01 :
-                begin
-                    _add_in_reg_l2_a[i] = _add_out[i];
-                end
-                default
-                begin
-                    _add_in_reg_l2_a[i] = {BW_DATA{1'b0}};
-                end
-            endcase
-        end
-    end
-endgenerate
-
-generate
-    for(i=0;i<DIM_EMB;i=i+1)
-    begin
-        always@(*)
-        begin
-            case({en_bwd_path_sync,en_bwd_path_w_up_sync})
-                2'b10 :
-                begin
-                    _add_in_reg_l2_b[i] = dout_mult_2[i];
-                end
-                2'b01 :
-                begin
-                    _add_in_reg_l2_b[i] = $signed(~data_out_w[i]+1'b1) >>> (LEARNING_RATE_SHIFT_BITS + REG_L2_NORM_SHIFT_BITS);
-                    //_add_in_reg_l2_b[i] = {BW_DATA{1'b0}};
-                end
-                default
-                begin
-                    _add_in_reg_l2_b[i] = {BW_DATA{1'b0}};
-                end
-            endcase
-        end
-    end
-endgenerate
-*/
-
 generate
     for(i=0;i<DIM_EMB;i=i+1)
     begin
@@ -1899,67 +1637,6 @@ generate
     end
 endgenerate
 
-/*
-generate
-    for(i=0;i<DIM_EMB;i=i+1)
-    begin
-        always@(*)
-        begin
-            if(en_bwd_path_sync)
-            begin
-                if(f_1st_in_batch == 1'b1) 
-                    add_in_w_del_a[i] = {BW_DATA{1'b0}};
-                else
-                    add_in_w_del_a[i] = data_out_w_del[i];   
-            end
-            else
-                add_in_w_del_a[i] = {BW_DATA{1'b0}};
-        end
-    end
-endgenerate
-
-generate
-    for(i=0;i<DIM_EMB;i=i+1)
-    begin
-        always@(*)
-        begin
-            if(en_bwd_path_sync)
-                add_in_w_del_b[i] = dout_mult_2[i];
-            else
-                add_in_w_del_b[i] = {BW_DATA{1'b0}};
-        end
-    end
-endgenerate
-*/
-
-// test_170810_2
-/*
-generate
-    for(i=0;i<DIM_EMB;i=i+1)
-    begin
-        always@(*)
-        begin
-            if(en_bwd_path_w_up_sync)
-                _add_in_reg_l2_a[i] = _add_out[i];
-            else
-                _add_in_reg_l2_a[i] = {BW_DATA{1'b0}};
-        end
-    end
-endgenerate
-
-generate
-    for(i=0;i<DIM_EMB;i=i+1)
-    begin
-        always@(*)
-        begin
-            if(en_bwd_path_w_up_sync)
-                _add_in_reg_l2_b[i] = $signed(~data_out_w[i]+1'b1) >>> (LEARNING_RATE_SHIFT_BITS + REG_L2_NORM_SHIFT_BITS);
-            else
-                _add_in_reg_l2_b[i] = {BW_DATA{1'b0}};
-        end
-    end
-endgenerate
-*/
 
 generate
     for(i=0;i<DIM_EMB;i=i+1)
@@ -2166,11 +1843,6 @@ generate
         )
         adder_w_del
         (
-            // test_170810
-            //.a(_add_in_reg_l2_a[i]),
-            //.b(_add_in_reg_l2_b[i]),
-            //.a(add_in_reg_l2_a[i]),
-            //.b(add_in_reg_l2_b[i]),
             .a(add_in_w_del_a[i]),
             .b(add_in_w_del_b[i]),
             .c(_add_out_w_del[i]),
@@ -2190,9 +1862,6 @@ generate
         )
         adder_w_up_reg_l2
         (
-            // test_170810_2
-            //.a(_add_in_reg_l2_a[i]),
-            //.b(_add_in_reg_l2_b[i]),
             .a(add_in_reg_l2_a[i]),
             .b(add_in_reg_l2_b[i]),
             .c(_add_out_reg_l2[i]),
@@ -2323,13 +1992,7 @@ div_32_norm
     .m_axis_dout_tdata({div_norm_q, div_norm_f})
 );
 
-`ifdef WO_SOFTMAX_MODE
-assign _data_out = _reg_dot_product;
-`else
-//assign _data_out = {div_norm_q[BW_DATA-1], div_norm_q[BW_IWL-:BW_IWL], div_norm_f[BW_DATA-1-:(BW_WL-BW_IWL-1)]};
 assign _data_out = {div_norm_q[BW_DATA-1], div_norm_q[BW_IWL-1-:BW_IWL], div_norm_f[BW_DATA-1-:(BW_WL-BW_IWL-1)]};
-`endif
-
 
 always@(posedge clk or negedge rst_n)
 begin
