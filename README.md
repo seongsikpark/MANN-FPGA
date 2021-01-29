@@ -1,6 +1,9 @@
 # MANN-FPGA
 Energy-Efficient Inference Accelerator for Memory-Augmented Neural Networks on an FPGA (DATE-19)
 (https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8715013)
+Memory-Augmented Neural Networks on FPGA for Real-Time and Energy-Efficient Question Answering (TVLSI-21)
+(https://ieeexplore.ieee.org/abstract/document/9269453)
+
 
 # Description
 FPGA implementation of the memory-augmented neural networks for energy efficienty inference.
@@ -12,7 +15,6 @@ This git only contains the hardware part (verilog source code and test bench)
 You can refer to the host code in another git (https://github.com/seongsikpark/Q-MANN)
 
 Using both git (host code + verilog code), you can run the inference of MANNs on CPU, GPU or FPGA.
-
 
 
 # Our experimental environment
@@ -75,5 +77,18 @@ Please cite our paper in your publications if it helps your research work:
   pages={1587--1590},
   year={2019},
   organization={IEEE}
+}
+```
+
+```
+@article{park2020memory,
+  title={Memory-Augmented Neural Networks on FPGA for Real-Time and Energy-Efficient Question Answering},
+  author={Park, Seongsik and Jang, Jaehee and Kim, Seijoon and Na, Byunggook and Yoon, Sungroh},
+  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+  volume={29},
+  number={1},
+  pages={162--175},
+  year={2020},
+  publisher={IEEE}
 }
 ```
